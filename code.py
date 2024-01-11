@@ -3,7 +3,7 @@ import requests
 def get_github_data(username):
     # Replace 'YOUR_GITHUB_TOKEN' with your actual GitHub Personal Access Token
     # You can generate a token in your GitHub account settings: https://github.com/settings/tokens
-    headers = {'Authorization': 'Bearer YOUR_GITHUB_TOKEN'}
+    headers = {'Authorization': 'Bearer' 'YOUR_GITHUB_TOKEN'}
     
     # Fetch user data
     user_url = f'https://api.github.com/users/{username}'
